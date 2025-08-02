@@ -16,7 +16,7 @@ export function ThemeToggle() {
     return (
       <button className="inline-flex items-center justify-center rounded-md w-9 h-9 bg-transparent border border-border hover:bg-accent hover:text-accent-foreground transition-colors">
         <span className="sr-only">Toggle theme</span>
-        <div className="w-4 h-4" />
+        <Sun className="h-4 w-4" />
       </button>
     )
   }
